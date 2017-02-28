@@ -1,0 +1,160 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 1, 2015, 1:33:08 AM
+    Author     : sahil1
+*/
+.bootstrap-range.btn-group{
+    button.btn{
+        .caret{
+            .sprite();
+            .sprite-xs();
+            .sprite-caret();
+        }
+    }
+}
+
+.bootstrap-range.btn-group{
+    background-color:transparent;
+    height:37px;
+    padding:0;
+    border:none;
+    margin-bottom:0;
+    button.btn.dropdown-toggle{
+        position:relative;
+        width:100%;
+    }
+    &.select-white button.btn.dropdown-toggle.btn-default{
+        border:1px solid #c4c4c4;
+        background-color:white;
+        color:#a4a4a4;
+        font-family:Gotham,Arial;
+        font-size:13px;
+        font-weight:normal;
+        box-shadow:none;
+        .caret{
+            background-repeat: no-repeat;
+            background-image: url(../images/sprites.png);
+            display: inline-block;
+            vertical-align: middle;
+            width: 20px;
+            height: 20px;
+            background-position: -210px 0;  
+            position:absolute;
+            top:11px;
+            right: 12px;
+        }
+    }
+    
+    &.open{
+        button{
+            box-shadow: none;
+            background-color:white;
+        }
+    }
+    div.dropdown-menu{
+        padding:0;
+        .range-header{
+            background-color:#ededed;
+            padding:9px;
+            .has-input{
+                input{
+                    border:1px solid #c4c4c4;
+                    background-color:white;
+                    box-shadow: none;
+                    text-shadow: none;
+                    font-family: Gotham,Arial;
+                    font-size:10px;
+                    color:#525352;
+                    line-height:32px;
+                    text-align: center;
+                }
+            }
+        }
+        .range-body{
+            ul.price-range{
+                li{
+                    padding:0 14px;
+                    &:hover{
+                        background-color:#ededed;
+                        span{
+                            border-color: transparent;
+                        }
+                    }
+                    &:last-child span{
+                        border-color: transparent;
+                    }
+                    span{
+                        font-family: Gotham,Arial;
+                        font-size:13px;
+                        line-height: 32px;
+                        color:#525352;
+                        border-bottom:1px solid #ededed;
+                        display:block;
+                    }
+                }
+            }
+        }
+    }
+}
+.bootstrap-range.btn-group{
+    button.btn{
+        background: transparent;
+        background-image:none;
+        text-shadow: none;
+        color:white;
+        height:37px;
+        font-family: Gotham,Arial;
+        font-weight: normal;
+        font-size:12px;
+        padding:8px 15px;
+        text-align:left;
+        span{
+            line-height: 20px;
+        }
+        .caret{
+            border:none;
+            top:11px;
+            float:right;
+        }
+    }
+    &.select-gray button.btn{
+        border:1px solid #d7d7d7;
+        color:#525252;
+        width:100%;
+        .caret{
+            background-position: -210px 0;
+        }
+    }
+    .dropdown-menu{
+        min-width:220px;
+        width:100%;
+        .dash{
+            float:left;
+            margin:16px 10px 0 10px;
+            height: 1px;
+            width: 12px;
+            background: #7f7f7f; 
+            vertical-align: middle;
+        }
+        input{
+            border:1px solid #d7d7d7;
+            border-radius: 0;
+            color:#525252;
+        }
+        ul{
+            margin-top:20px;
+            li{
+                font-family: Gotham,Arial;
+                font-weight: normal;
+                font-size:12px;
+                line-height:20px;
+                cursor:pointer;
+            }
+        }
+    }
+    
+}

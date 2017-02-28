@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 16, 2015, 4:51:24 PM
+    Author     : sahil1
+*/
+
+.funcOpacity(@time:50ms){
+    .transitAll(opacity @time linear);
+    opacity:0;
+}
+.transformAll(@trans:none){
+    transform+: @trans;
+    -o-transform+: @trans;
+    -ms-transform+: @trans;
+    -moz-transform+: @trans;
+    -webkit-transform+: @trans;
+}
+.transitAll(@trans:none){
+    transition+: @trans;
+    -o-transition+: @trans;
+    -ms-transition+: @trans;
+    -moz-transition+: @trans;
+    -webkit-transition+: @trans;
+}
+
+.roundit(@size: 5px,@size1:@size,@size2:@size,@size3:@size1){
+-webkit-border-radius: @size @size1 @size2 @size3;
+-moz-border-radius: @size  @size1 @size2 @size3;
+-o-border-radius:@size  @size1 @size2 @size3;
+-ms-border-radius:@size  @size1 @size2 @size3;
+border-radius: @size  @size1 @size2 @size3;
+}
+.filter(@filter){
+    -webkit-filter: @filter; 
+    -moz-filter: @filter;
+    -ms-filter: @filter; 
+    -o-filter: @filter;
+    filter: @filter;    
+}
+.sepia(){
+    .filter(sepia(100%));
+    filter: url(sepia.svg#old-timey); 
+}

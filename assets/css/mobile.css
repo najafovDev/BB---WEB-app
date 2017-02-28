@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 30, 2015, 12:12:41 PM
+    Author     : sahil1
+*/
+@media (max-width: 1089px) {
+  html,
+  body {
+    min-width: 406px;
+  }
+  .sidebar-menu {
+    min-width: 406px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  .sidebar-menu .menubar .navbar-collapse {
+    width: 100%;
+  }
+  .sidebar-menu .menubar .navbar-collapse .nav.navbar-nav li {
+    width: 33.333333%;
+  }
+}
