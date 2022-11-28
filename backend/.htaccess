@@ -1,0 +1,13 @@
+Options -Indexes
+
+# this is the initialization
+#Options         +FollowSymLinks
+RewriteEngine   On
+RewriteBase     /mfe/
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# otherwise forward it to index.php
+        RewriteRule . index.php
+

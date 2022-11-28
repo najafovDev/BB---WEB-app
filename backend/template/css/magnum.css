@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 22, 2014, 1:18:18 PM
+    Author     : sahil
+*/
+
+.actionpanel .action{
+    padding:10px 0;
+}
+.actionpanel .action span{
+    margin-right:10px;
+}
+
+.alert-messages {
+  position: fixed;
+  top: 47px;
+  right:0;
+  width:200px;
+  z-index: 7000;
+}
+.contextpanel {
+    overflow:auto;
+    position: absolute;
+    top: 51px;
+    left: 240px;
+    background-color: white;
+    width: auto;
+    height: 1000px;
+    z-index: 1;
+    border:1px solid #cacaca;
+    border-top:none;
+    display:none;
+    max-width: 800px;
+    z-index: 999;
+}
+.contextpanel .panel-caption{
+    padding:25px 15px 24px 25px;
+    border-bottom:1px solid #cacaca;
+}
+.actionpanel {
+    left:480px;
+    background-color:#e4e7ea;
+    border-left:none;
+}
+.actionpanel .panel-caption{
+    background-color:#1d2939;
+    color:white;
+}
+.contentpanel{
+    padding:0 ;
+
+}
+.contentpanel>div,.contentpanel>ul,.contentpanel>p,.contentpanel>span,.contentpanel>a{
+    padding:20px;
+
+}
+.contentpanel>h1{
+    padding: 15px;
+    border-bottom: 1px solid #d3d7db;
+    border-top: 1px solid #eee;
+    background: #f7f7f7;
+    position: relative;
+    font-size: 28px;
+    color: #1D2939;
+    letter-spacing: -0.5px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.logopanel h1{
+    text-align: center;
+}
+
+.grid-view .button-column {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.grid-view .button-column a.update{
+    margin-right:10px;
+}
