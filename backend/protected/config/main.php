@@ -130,10 +130,13 @@ return array(
 		'db'=>array(
 			'tablePrefix'=>'',
 			'class'=>'CDbConnection',
-			'connectionString' => 'mysql:host=localhost;dbname=davam016_test',
+			'connectionString' => '
+				mysql:host=localhost;
+				dbname=your_db
+			',
 			'emulatePrepare' => true,
-			'username' => 'davam016_test',
-			'password' => 'jeR}&b#ii%A2',
+			'username' => 'your_username',
+			'password' => 'your_password',
 			'charset' => 'utf8',
                         'enableParamLogging'=>true,
                         'schemaCachingDuration'=>3600,
